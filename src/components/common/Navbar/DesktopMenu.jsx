@@ -13,7 +13,7 @@ import Link from "next/link";
 
 const DesktopMenu = () => {
   return (
-    <NavigationMenu viewport={false}>
+    <NavigationMenu viewport={true}>
       <NavigationMenuList>
         <NavigationMenuItem>
           <NavigationMenuTrigger>Home</NavigationMenuTrigger>
