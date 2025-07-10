@@ -8,7 +8,7 @@ import { BlurFade } from "@/components/magicui/blur-fade";
 
 const CaroselCard = ({ slide }) => {
   return (
-    <div className="relative">
+    <div className="relative ">
       <Image
         className="w-full h-[85vh] object-cover"
         src="/assets/images/Banner/1.jpg"

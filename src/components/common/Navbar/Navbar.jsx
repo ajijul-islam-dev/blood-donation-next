@@ -10,7 +10,7 @@ import { BlurFade } from "@/components/magicui/blur-fade";
 
 const Navbar = () => {
   return (
-    <div className="bg-white w-full py-5 shadow">
+    <div className="bg-white w-full py-5 shadow relative z-50">
       <div className="container mx-auto flex items-center justify-between">
         <BlurFade delay={0.1}>
           <div className="">
