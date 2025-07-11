@@ -32,9 +32,16 @@ const Navbar = () => {
         <BlurFade delay={0.2}>
           <div className="hidden items-center gap-2 md:flex ">
             <Dropdown />
-            <Button size="lg" className="rounded-none px-4 py-2">
-              Register
-            </Button>
+            <Link href="/register">
+              <Button size="lg" className="rounded-none px-4 py-2">
+                Register
+              </Button>
+            </Link>
+            <Link href="/login">
+              <Button size="lg" className="rounded-none px-4 py-2">
+                Login
+              </Button>
+            </Link>
           </div>
         </BlurFade>
 
