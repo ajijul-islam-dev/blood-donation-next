@@ -12,7 +12,7 @@ const Navbar = () => {
   return (
     <div className="bg-white w-full py-5 shadow relative z-50">
       <div className="container mx-auto flex items-center justify-between">
-        <BlurFade delay={0.1}>
+        <BlurFade delay={0.4}>
           <div className="">
             <Link href="/">
               <Image
@@ -24,12 +24,12 @@ const Navbar = () => {
             </Link>
           </div>
         </BlurFade>
-        <BlurFade delay={0.2}>
+        <BlurFade delay={0.3}>
           <div className="hidden md:block">
             <DesktopMenu />
           </div>
         </BlurFade>
-        <BlurFade delay={0.3}>
+        <BlurFade delay={0.2}>
           <div className="hidden items-center gap-2 md:flex ">
             <Dropdown />
             <Button size="lg" className="rounded-none px-4 py-2">
@@ -39,7 +39,7 @@ const Navbar = () => {
         </BlurFade>
 
         <div className="md:hidden">
-          <BlurFade delay={0.4}>
+          <BlurFade delay={0.1}>
             <MobileMenuSheet />
           </BlurFade>
         </div>

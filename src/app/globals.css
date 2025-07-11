@@ -120,3 +120,21 @@
     @apply bg-background text-foreground;
   }
 }
+
+.container {
+  padding: 0 10px;
+}
+
+.intro-title {
+  position: relative;
+}
+
+.intro-title::before {
+  content: "";
+  position: absolute;
+  bottom: -5;
+  left: 0;
+  width: 15%;
+  height: 2px;
+  background-color: var(--primary);
+}

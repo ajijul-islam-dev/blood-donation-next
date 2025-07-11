@@ -19,7 +19,7 @@ const BannerCarosel = () => {
   return (
     <Carousel
       plugins={[plugin.current]}
-      className="w-full h-[85vh]"
+      className="w-full h-[70vh] md:h-[85vh]"
       onMouseEnter={plugin.current.stop}
       onMouseLeave={plugin.current.reset}
     >

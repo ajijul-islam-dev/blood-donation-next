@@ -10,7 +10,7 @@ const CaroselCard = ({ slide }) => {
   return (
     <div className="relative ">
       <Image
-        className="w-full h-[85vh] object-cover"
+        className="w-full h-[70vh] md:h-[85vh] object-cover"
         src="/assets/images/Banner/1.jpg"
         width={950}
         height={650}

@@ -1,6 +1,7 @@
 import React from "react";
 import InspireCard from "./InspireCard";
 import { Description } from "@radix-ui/react-dialog";
+import { motion } from "framer-motion";
 
 const InspireSection = () => {
   return (

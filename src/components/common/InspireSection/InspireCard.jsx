@@ -7,14 +7,14 @@ const InspireCard = ({ inspire }) => {
   const [isHovered, setIsHovered] = useState(false);
   return (
     <div
-      className="relative z-50"
+      className="relative z-10"
       onMouseEnter={(e) => {
         e.stopPropagation();
         setIsHovered(true);
       }}
       onMouseLeave={() => setIsHovered(false)}
     >
-      <div className="p-5 bg-white relative">
+      <div className="p-2 bg-white relative">
         <div className=" overflow-hidden">
           <Image
             className={`${
@@ -44,7 +44,7 @@ const InspireCard = ({ inspire }) => {
         <ShinyButton
           className={`${
             isHovered ? "bg-primary" : "bg-black"
-          } transition-colors duration-500 text-white w-full rounded-none p-5`}
+          } transition-colors duration-500 text-white w-full rounded-none md:p-5`}
         >
           <span className="text-white">Read More</span>
         </ShinyButton>
